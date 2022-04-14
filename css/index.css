@@ -1,0 +1,96 @@
+body {
+  font-family: 'Bahnschrift light';
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+.index_container
+{
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.online_services {
+  font-size: 1em;
+  margin: 1%;
+  width: 55%;
+  float: left;
+  padding-bottom: 5px;
+}
+
+.online_services ul {
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+.online_services ul li {
+  color: white;
+  padding: 2%;
+  margin: 5px;
+  background-color: #004156;
+  display: inline-block;
+  width: 25%;
+  /* //border-top-right-radius: 25px; */
+  border-bottom: 2px solid black;
+  transition-duration: 0.4s;
+}
+
+.online_services ul li:hover {
+  background-color: #002d3b;
+}
+
+.online_services ul a:hover {
+  cursor: pointer;
+}
+
+.online_services a {
+  color: white;
+  text-decoration: none;
+}
+
+.online_services h4 {
+  margin: 5px;
+  text-align: center;
+}
+
+.ebanking {
+  position: relative;
+  display: inline-block;
+}
+
+.ebanking a {
+  display: block;
+}
+
+.ebanking_options {
+  position: absolute;
+  display: none;
+  background-color: #c5d9e2;
+  width: 180%;
+  border: 1px solid black;
+  box-shadow: 2px 2px 40px rgb(45, 71, 112);
+  z-index: 1;
+}
+
+.ebanking_options ul {
+  cursor: auto;
+}
+
+.ebanking_options ul a {
+  cursor: pointer;
+}
+.ebanking_options ul li {
+  padding: 7%;
+  width: 72%;
+  color: white;
+  background-color: #004156;
+  display: inline-block;
+  /* //border-top-right-radius: 25px; */
+  border-bottom: 2px solid black;
+}
+
+.ebanking:hover .ebanking_options {
+  display: block;
+}

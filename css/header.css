@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: 'Bahnschrift light';
+  background-color: rgb(230, 230, 230);
+}
+.header_main {
+  width: 100%;
+}
+.navbar ul li a {
+  display: inline-block;
+  padding: .7rem 1rem;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #004156;
+  transition-duration: 0.6s;
+}
+
+.navbar ul li a:hover {
+  color: #fff;
+  background-color: #012c3a;
+}
+
+.navbar ul {
+  font-family: 'Bahnschrift light';
+  text-align: right;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.navbar li {
+  display: inline;
+}
+
+.navbar li span {
+  font-family: 'Bahnschrift light';
+}
+
+.logo-name {
+  padding: 10px 3%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.name h5 {
+  color: #000;
+  display: inline-block;
+  position: relative;
+  margin-top: 2.3%;
+  left: 2.2%;
+  /* //font-size: 24px; */
+  font-size: 1.5em;
+  font-family: 'Bahnschrift light';
+  transition-duration: 0.8s;
+}
+
+.logo {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logo_img {
+  transition-duration: 0.8s;
+  border-radius: 20px;
+}
+
+.dif_banking {
+  background-color: #fff;
+  font-size: 14px;
+  color: #000;
+  padding-left: 3%;
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  overflow: auto;
+}
+.dif_banking a {
+  color: #000;
+  margin-right: 20px;
+  text-decoration: none;
+  transition-duration: 0.6s;
+  /* // background-color: black; */
+}
+.dif_banking a:hover {
+  color: #17c3ba;
+}
+.retail_banking {
+  float: left;
+  text-align: center;
+}
+.corporate_banking {
+  float: left;
+  text-align: center;
+}
+.international_banking {
+  float: left;
+  text-align: center;
+}
+.tax {
+  float: left;
+  text-align: center;
+}
+.bank_service {
+  float: left;
+  text-align: center;
+}
+
+.my_form {
+}
+.srch {
+  margin-left: 65%;
+  display: inline;
+  border: 0px;
+}
+
+.search {
+  border: 1px solid black;
+  border-radius: 2px;
+  color: black;
+  border: 0px;
+  padding: 10px;
+}
+.button {
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: rgb(97, 162, 53);
+  padding: 10px;
+  border: 0px;
+}
